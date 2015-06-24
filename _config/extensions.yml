@@ -1,0 +1,8 @@
+---
+Name: artisan-swipestripe-extensions
+After:
+  - '#artisan-extensions'
+---
+ArtisanBlock:
+  extensions:
+    - ArtisanHasSwipeStripeProductLinkExtension
