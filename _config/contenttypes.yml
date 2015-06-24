@@ -1,0 +1,13 @@
+---
+Name: artisan-swipestripe-content-types
+After:
+  - '#artisan-content-types'
+---
+ArtisanStaticContentTypeMetaDataProvider:
+  content_types:
+    ArtisanSwipeStripeProductBlock:
+      Title: 'Product'
+      FormFields:
+        Content: [true, 'Content']
+        ProductID: true
+
