@@ -9,7 +9,7 @@ class ArtisanHasSwipeStripeProductExtension extends ArtisanModelExtension {
 
     private static $tab_name = 'Root.Main';
 
-    private static $insert_field_before = 'ArtisanImages';
+    private static $insert_field_before = 'Content';
 
     private static $add_to_form = true;
 
@@ -29,7 +29,8 @@ class ArtisanHasSwipeStripeProductExtension extends ArtisanModelExtension {
                         _t("ArtisanHasSwipeStripeProductExtension.Label", 'Link block to product'),
                         'SiteTree'
                     )
-                )
+                ),
+                self::get_config_setting('insert_field_before') ?: null
             );
         }
     }
