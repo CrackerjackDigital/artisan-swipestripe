@@ -5,4 +5,4 @@ After:
 ---
 ArtisanBlock:
   extensions:
-    - ArtisanHasSwipeStripeProductExtension
+    - ArtisanHasSwipeStripeProductLinkExtension

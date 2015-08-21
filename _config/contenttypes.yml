@@ -6,7 +6,8 @@ After:
 ArtisanStaticContentTypeMetaDataProvider:
   content_types:
     ArtisanSwipeStripeProductBlock:
-      Title: 'SwipeStripe Product'
+      Title: 'Product'
       FormFields:
-        SwipeStripeProductID: true
+        Content: [true, 'Content']
+        ProductLink: true
 
